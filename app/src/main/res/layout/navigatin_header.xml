@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="#2FC335"
+    tools:showIn="start"
+    android:gravity="bottom"
+    >
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imagepic"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="12dp"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:text="BILAHH TUURI's shop MALL"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:title="check the shop">
+<menu>
+    <item
+        android:id="@+id/cart"
+        android:title="cart"
+        android:icon="@drawable/ic_shopping_cart"/>
+    <item
+        android:id="@+id/category"
+        android:title="category"
+        android:icon="@drawable/ic_cat"/>
+    <item
+        android:id="@+id/terms"
+        android:title="terms"
+        android:icon="@drawable/ic_terms"/>
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_info"
+        android:title="info"/>
+    <item
+        android:id="@+id/licience"
+        android:icon="@drawable/ic_category"
+        android:title="licience"/>
+
+</menu>
+
+        </item>
+    </group>
+</menu>
